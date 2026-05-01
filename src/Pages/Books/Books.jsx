@@ -19,9 +19,9 @@ const Books = () => {
         
     return (
         <div className='container mx-auto'>
-            <div className='flex justify-center '>
+            <div className='flex justify-end '>
               <div className="dropdown dropdown-start">
-  <div tabIndex={0} role="button" className="btn m-1">shorted by ⬇️</div>
+  <div tabIndex={0} role="button" className="font-bold btn m-1">shorted by {sort} ⬇️</div>
   <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li onClick={()=>setsort('pages')}>
       <a>pages</a></li>

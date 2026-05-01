@@ -9,6 +9,9 @@ const Nabbar = () => {
     // setactive(true)
     // }
     return (
+
+        
+        // end
         <div className='container mx-auto my-4 sticky'>
             <nav className='flex justify-between items-center sticky'>
                 <h1 className='font-bold text-2xl'>Book vibe</h1>

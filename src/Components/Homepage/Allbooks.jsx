@@ -9,9 +9,9 @@ const Allbooks = () => {
     console.log(booksData)
 
     return (
-         <div className='container mx-auto'>
+         <div className='container mx-auto py-8'>
 
-            <h1 className='font-bold text-3xl text-center'>All Books</h1>
+            <h1 className='font-bold text-3xl text-center'>ALL BOOKS HERE</h1>
             
            <div className='grid md:grid-cols-2 lg:grid-cols-3'>
 
